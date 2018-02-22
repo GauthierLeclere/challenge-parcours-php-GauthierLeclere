@@ -23,6 +23,7 @@ require_once '../inc/functions.php';
  * Tiens, un cadeau : http://php.net/manual/fr/function.mt-rand.php
  */
 
+// Correction : parfait !
 function numeroLoto() {
  return mt_rand(1,49);
 }

@@ -30,6 +30,9 @@ require_once '../inc/functions.php';
  *      calculPlage(1, 2, 3) doit renvoyer 9
  */
 
+// Correction : bien
+
+// Correction : attention, ce serait mieux si le nom des paramètres étaient + significatifs
 function calculPlage($art1, $art2, $art3) {
   $total = $art1 + $art2 + $art3*2;
   return $total;

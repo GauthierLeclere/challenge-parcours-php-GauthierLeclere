@@ -24,6 +24,7 @@ require_once '../inc/functions.php';
  * Allez, bon courage… (mouhahaha)
  */
 
+// Correction : parfait !
 function hello() {
 
   if(isset($_GET['name'], $_GET['birth']) && !empty($_GET['name']) && !empty($_GET['birth'])){

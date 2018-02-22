@@ -30,13 +30,17 @@ require_once '../inc/functions.php';
  * http://php.net/manual/fr/function.is-array.php
  */
 
+// Correction : bien
+
+// Correction : attention, ce serait mieux si le nom des paramètres étaient + significatifs
+// De plus, il est préférable que la valeur par défaut corresponde au type de la donnée. Ici c'est float/int => ..., $art2=0, $art3=0...
 function calculPlage($art1, $art2 = '', $art3 = '') {
   
   if(is_array($art1)){
     $total = 0;
     $total = array_sum($art1)+end($art1);
     return $total;
-    }
+    } // Correction : attention à l'indentation !
     else{
       $total = $art1 + $art2 + $art3*2;
       return $total;

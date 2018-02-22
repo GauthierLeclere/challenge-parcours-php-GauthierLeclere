@@ -23,6 +23,7 @@ require_once '../inc/functions.php';
  *   fonction pour avoir d'autres numéros…
  */
 
+// Correction : parfait !
 function numerosLoto() {
 
   $loto = [];

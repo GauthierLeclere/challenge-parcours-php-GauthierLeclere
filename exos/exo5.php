@@ -28,6 +28,7 @@ require_once '../inc/functions.php';
  *   'Bonjour Zelda, comment tu vas ?'
  */
 
+// Correction : parfait !
 function hello() {
 
   if(isset($_GET['name']) && (!empty($_GET['name']))){
